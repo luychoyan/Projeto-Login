@@ -18,9 +18,25 @@
 
             <div class="formulario">
                 <h1>Login</h1>
-                <p>Seja Bem-Vindo(a)</p> 
+                <p class="bemvindo">Seja Bem-Vindo(a)</p> 
                 <form action="login.php">
+                    <div class="login">
+                        <label for="iemail">Login: </label>
+                        <input type="email" name="email" id="iemail" placeholder="  Seu e-mail">
+                    </div>
 
+                    <div class="senha">
+                        <label for="isenha">Senha: </label>
+                        <input type="password" name="senha" id="isenha" placeholder="  Senha" required minlength="6">
+                    </div>
+
+                    <div class="botoes">
+                        <input class="enviar" type="submit" value="Enviar">
+                        <input class="limpar" type="reset" value="Limpar">
+                        <a class="esqueci-senha" href="esqueci.html">Esqueci a Senha</a>
+                    </div>
+
+                    
                 </form>
             </div>
         </section>
