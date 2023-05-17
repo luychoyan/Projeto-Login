@@ -16,6 +16,23 @@
     .formulario {
         float: right;
         width: 55%;
+        margin-top: 50px;
+    }
+
+    .email > input {
+        font-size: 1em;
+        width: 282px;
+        height: 30px;
+    }
+
+    .senha > input {
+        font-size: 1em;
+        width: 282px;
+        height: 30px;
+    }
+
+    .botoes {
+        margin-top: 70px;
     }
 }
 
@@ -33,5 +50,21 @@
     .formulario {
         float: right;
         width: 50%;
+    }
+
+    .email > input {
+        font-size: 1em;
+        width: 343px;
+        height: 30px;
+    }
+
+    .senha > input {
+        font-size: 1em;
+        width: 343px;
+        height: 30px;
+    }
+
+    .botoes {
+        margin-top: 70px;
     }
 }
