@@ -21,13 +21,13 @@
 
     .email > input {
         font-size: 1em;
-        width: 282px;
+        width: 90%;
         height: 30px;
     }
 
     .senha > input {
         font-size: 1em;
-        width: 282px;
+        width: 90%;
         height: 30px;
     }
 
@@ -60,7 +60,7 @@
 
     .senha > input {
         font-size: 1em;
-        width: 343px;
+        width: 342px;
         height: 30px;
     }
 
