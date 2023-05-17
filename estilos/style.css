@@ -6,7 +6,7 @@
 }
 
 body, html {
-    background-image: url(../imagens/background.jpg);
+    background-image: url(../imagens/bg.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
@@ -37,7 +37,7 @@ main {
 
 .imagem {
     display: block;
-    background: url(../imagens/tela-principal.jpg);
+    background: url(../imagens/principal.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
